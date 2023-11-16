@@ -9,7 +9,7 @@ const filas = 12;
 const ChessBoard = () => {
   const urlMusica = 'https://soundcloud.com/sapiz-cloe/sets/musica-de-videojuegos-battle?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
 
-  const cantidadBombas = (1 / 100) * filas * columnas;
+  const cantidadBombas = (17 / 100) * filas * columnas;
   const [celdaAbierta, setCeldaAbierta] = useState(Array(filas * columnas).fill(false));
   const [banderaPuesta, setBanderaPuesta] = useState(Array(filas * columnas).fill(false));
   const [bombas, setBombas] = useState([]);
